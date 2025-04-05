@@ -41,7 +41,7 @@ section p {
     margin-bottom: 20px;
 }
 
-#imagen-pachamama {
+#imagen-pachamama_panorama {
     width: 100%;
     height: auto;
     border-radius: 8px;
@@ -99,4 +99,7 @@ ul li a {
     section p {
         font-size: 1em;
     }
+}
+textarea{
+    resize: none;;
 }

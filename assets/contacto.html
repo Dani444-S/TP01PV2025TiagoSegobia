@@ -1,0 +1,49 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Contacto</h1>
+    </header>
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="museos.html">Museos</a>
+        <a href="contacto.html">Contacto</a>
+    </nav>
+
+    <!-- Formulario en lugar del mensaje -->
+    <section>
+        <h2>Contáctanos Directamente</h2>
+        <p>Por favor, completa el siguiente formulario para contactarnos:</p>
+        <form action="destino_formulario.php" method="post" class="input-group">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+
+            <label for="asunto">Asunto:</label>
+            <input type="text" id="asunto" name="asunto">
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje"></textarea>
+
+            <label for="acepta">
+            <input type="checkbox" id="acepta" name="acepta" required>
+            Acepto los términos y condiciones</a>
+            </label>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+
+    <footer>
+        <p>Información Cultural - Pachamama en Jujuy</p>
+        <p>&copy; 2025 - Tiago Segobia</p>
+    </footer>
+</body>
+</html>
